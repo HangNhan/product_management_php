@@ -12,4 +12,4 @@ if (file_exists("./images/".$after['imgURL'])){
 $sql="DELETE FROM `sanpham` WHERE `sanpham`.`masp`=$id";
 mysqli_query($conn,$sql);
 header("location:index.php");
- ?>  
+ ?>
