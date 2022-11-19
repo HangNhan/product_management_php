@@ -7,10 +7,8 @@ $dbname="dblaptop";
 $conn = mysqli_connect($severName,$userName,$password,$dbname);
 // check connection
 if(!$conn){
-    die("connection failed:".mysqli_connect_errol());
+    die("connection failed:".mysqli_connect_error());
 
-}else{
-    echo"connection successfully.";
 }
 ?>
 
